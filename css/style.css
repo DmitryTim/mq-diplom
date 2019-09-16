@@ -937,49 +937,52 @@ aside {
   padding-left: 35px;
   margin: 0 0 10px -5px;
   color: #fff;
-  font-size: 55px;
-  line-height: 1;
-}
-
-@media screen and (max-width: 769px) {
-  .footer-text-container {
-    font-size: 40px;
-    line-height: 1;
-  }
-}
-@media screen and (max-width: 479px) {
-  .footer-text-container {
-    font-size: 32px;
-    line-height: 1;
-  }
-}
-
-
-@media screen and (max-width: 769px) {
-  .footer-from {
-    font-size: 18px;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .footer-from {
-    font-size: 14px;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .footer-text-container .footer-from {
-    align-items: center;
-    padding-left: 0;
-  }
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 4px;
 }
 
 .footer-from {
   color: #a496ca;
   font-weight: 400;
   font-size: 30px;
+  letter-spacing: -0.8px;
+}
+
+@media screen and (max-width: 769px) {
+  .footer-text-container {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer-from {
+    font-size: 28px;
+    letter-spacing: -0.8px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-text-container {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-from {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer-text-container {
+    align-items: center;
+    padding-left: 0;
+  }
 }
 
 .footer-menu {
