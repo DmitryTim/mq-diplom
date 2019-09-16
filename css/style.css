@@ -942,7 +942,7 @@ aside {
   letter-spacing: 4px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .footer-text-container {
     font-size: 40px;
     line-height: 1;
@@ -956,15 +956,15 @@ aside {
 }
 
 
-@media screen and (max-width: 767px) {
-  .footer-text-container {
+@media screen and (max-width: 769px) {
+  .footer-from {
     font-size: 18px;
     line-height: 1;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .footer-text-container {
+  .footer-from {
     font-size: 14px;
     line-height: 1;
   }
