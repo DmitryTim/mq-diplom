@@ -166,7 +166,7 @@ aside {
 }
 
 .logo path {
-  stroke: 5px;
+  stroke-width: 5px;
   transition: 0.4s;
 }
 
