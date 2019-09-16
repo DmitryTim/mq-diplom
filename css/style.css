@@ -939,7 +939,6 @@ aside {
   color: #fff;
   font-size: 55px;
   line-height: 1;
-  letter-spacing: 4px;
 }
 
 @media screen and (max-width: 769px) {
@@ -971,7 +970,7 @@ aside {
 }
 
 @media screen and (max-width: 991px) {
-  .footer-text-container {
+  .footer-text-container .footer-from {
     align-items: center;
     padding-left: 0;
   }
