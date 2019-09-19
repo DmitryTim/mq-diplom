@@ -430,150 +430,150 @@ aside {
   font-family: 'OpenSans', Times, sans-serif;
   display: block;
 }
-.sportsmans {
+.sport {
   font-size: 10px;
   overflow: hidden;
 }
-.sportsmans h2 {
+.sport h2 {
   margin-left: -5px;
   color: #e7e7e7;
   font-size: 80px;
   line-height: 1;
 }
 @media screen and (max-width: 767px) {
-  .sportsmans h2 {
+  .sport h2 {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 479px) {
-  .sportsmans h2 {
+  .sport h2 {
     font-size: 50px;
   }
 }
-.sportsmans-block {
+.sport-block {
   position: relative;
   display: flex;
   flex-direction: column;
 }
-.sportsmans-block:nth-child(2n) .sportsmans-box {
+.sport-block:nth-child(2n) .sport-box {
   justify-content: flex-start;
 }
-.sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap {
+.sport-block:nth-child(2n) .sport-box .sport-wrap {
   padding: 0 20px 0 192px;
 }
-.sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap .sportsmans-image {
+.sport-block:nth-child(2n) .sport-box .sport-wrap .sport-image {
   top: -110px;
   left: initial;
   right: 0;
   transform: translate(86%, 35px);
 }
 @media screen and (max-width: 1275px) {
-  .sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap .sportsmans-image {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap .sport-image {
     transform: translate(86%, 35px);
   }
 }
 @media screen and (max-width: 991px) {
-  .sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap .sportsmans-image {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap .sport-image {
     top: 0;
     transform: translate(60%, 0);
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap .sportsmans-image {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap .sport-image {
     position: static;
     transform: initial;
   }
 }
 @media screen and (max-width: 991px) {
-  .sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap {
     padding: 0 32px;
   }
 }
 @media screen and (max-width: 479px) {
-  .sportsmans-block:nth-child(2n) .sportsmans-box .sportsmans-wrap {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap {
     padding: 0 20px;
   }
 }
-.sportsmans-block:nth-child(2n) .sportsmans-box:nth-child(4) {
+.sport-block:nth-child(2n) .sport-box:nth-child(4) {
   background-color: #0a0e34;
 }
-.sportsmans-block:nth-child(2n) .sportsmans-box:nth-child(4) .sportsmans-wrap .sportsmans-title-wrap .sportsmans-value {
+.sport-block:nth-child(2n) .sport-box:nth-child(4) .sport-wrap .sport-title-wrap .sport-value {
   color: #5e42b0;
 }
-.sportsmans-box {
+.sport-box {
   display: flex;
   justify-content: flex-end;
 }
-.sportsmans-box:nth-child(1) {
+.sport-box:nth-child(1) {
   padding: 110px 0 50px;
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-box:nth-child(1) {
+  .sport-box:nth-child(1) {
     padding: 25px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-box:nth-child(2) {
+  .sport-box:nth-child(2) {
     margin-top: -50px;
     background-color: #fafafa;
   }
 }
-.sportsmans-box:nth-child(2),
-.sportsmans-box:nth-child(3),
-.sportsmans-box:nth-child(4) {
+.sport-box:nth-child(2),
+.sport-box:nth-child(3),
+.sport-box:nth-child(4) {
   padding: 60px 0;
 }
 @media screen and (max-width: 1275px) {
-  .sportsmans-box:nth-child(2),
-  .sportsmans-box:nth-child(3),
-  .sportsmans-box:nth-child(4) {
+  .sport-box:nth-child(2),
+  .sport-box:nth-child(3),
+  .sport-box:nth-child(4) {
     padding: 40px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-box:nth-child(2),
-  .sportsmans-box:nth-child(3),
-  .sportsmans-box:nth-child(4) {
+  .sport-box:nth-child(2),
+  .sport-box:nth-child(3),
+  .sport-box:nth-child(4) {
     padding: 60px 0;
   }
 }
-.sportsmans-box:nth-child(3) {
+.sport-box:nth-child(3) {
   background-color: #f6f4fa;
 }
-.sportsmans-box:nth-child(4) {
+.sport-box:nth-child(4) {
   background-color: #5e42b0;
 }
-.sportsmans-box:nth-child(4) .sportsmans-wrap .sportsmans-title-wrap h3 {
+.sport-box:nth-child(4) .sport-wrap .sport-title-wrap h3 {
   color: #c1c1c1;
 }
-.sportsmans-box:nth-child(4) .sportsmans-wrap .sportsmans-title-wrap .sportsmans-value:before {
+.sport-box:nth-child(4) .sport-wrap .sport-title-wrap .sport-value:before {
   background-color: #c1c1c1;
 }
-.sportsmans-box:nth-child(4) .sportsmans-wrap .sportsmans-text {
+.sport-box:nth-child(4) .sport-wrap .sport-text {
   color: #fff;
 }
-.sportsmans-wrap {
+.sport-wrap {
   position: relative;
   width: 50%;
   padding: 0 192px 0 20px;
 }
 @media screen and (max-width: 1275px) {
-  .sportsmans-wrap {
+  .sport-wrap {
     width: 66.66666667%;
     padding: 0 32px;
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-wrap {
+  .sport-wrap {
     width: 100%;
   }
 }
 @media screen and (max-width: 479px) {
-  .sportsmans-wrap {
+  .sport-wrap {
     padding: 0 20px;
   }
 }
-.sportsmans-image {
+.sport-image {
   position: absolute;
   top: -110px;
   left: 0;
@@ -581,29 +581,29 @@ aside {
   transition: 0.4s;
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-image img {
+  .sport-image img {
     display: block;
     margin: auto;
   }
 }
 @media screen and (max-width: 991px) {
-  .sportsmans-image {
+  .sport-image {
     top: 0;
     transform: translate(-90%, 45px) scale(1.04);
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-image {
+  .sport-image {
     position: static;
     transform: initial;
   }
 }
-.sportsmans-title-wrap {
+.sport-title-wrap {
   display: flex;
   align-items: flex-start;
   padding-bottom: 20px;
 }
-.sportsmans-title-wrap h3 {
+.sport-title-wrap h3 {
   margin-top: -5px;
   padding-left: 10px;
   color: #c1c1c1;
@@ -611,16 +611,16 @@ aside {
   letter-spacing: 1.7px;
 }
 @media screen and (max-width: 1275px) {
-  .sportsmans-title-wrap h3 {
+  .sport-title-wrap h3 {
     font-size: 32px;
   }
 }
-.sportsmans-value {
+.sport-value {
   position: relative;
   padding-bottom: 7px;
   font-size: 18px;
 }
-.sportsmans-value:before {
+.sport-value:before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -630,24 +630,24 @@ aside {
   background-color: #5e42b0;
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-value {
+  .sport-value {
     font-size: 14px;
   }
 }
-.sportsmans-text {
+.sport-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 1275px) {
-  .sportsmans-text {
+  .sport-text {
     font-size: 16px;
     line-height: 1.75;
   }
 }
 @media screen and (max-width: 767px) {
-  .sportsmans-text {
+  .sport-text {
     font-size: 15px;
     line-height: 1.2;
   }
