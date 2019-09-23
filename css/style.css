@@ -403,12 +403,20 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
 .menu-content-modify {
-  
+   margin-right: 20px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.menu-content-modify {
+   margin-right: 25px;
+}
 }
 
 .menu-logo-google {
-  margin-right: 25px;
+  margin-right: 10px;
   width: 42px;
   height: 48px;
 }
