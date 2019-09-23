@@ -358,7 +358,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .menu {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 
@@ -623,6 +623,13 @@ aside {
     font-size: 32px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  h3 {
+    font-size: 2px;
+  }
+}
+
 .sport-value {
   position: relative;
   padding-bottom: 7px;
@@ -795,7 +802,8 @@ aside {
     height: 70px;
     top: -90px;
   }
-}
+ }
+
 .tips-value {
   position: relative;
   margin: auto;
@@ -815,6 +823,13 @@ aside {
   background-color: #fff;
   opacity: 0.3;
 }
+
+ @media screen and (max-width: 479px) { 
+   .tips-value {
+    font-size: 14px;
+  }
+}
+
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
