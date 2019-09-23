@@ -904,7 +904,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 991px) {
@@ -980,7 +980,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer-text {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.2;
     letter-spacing: -0.5px;
   }
@@ -1001,7 +1001,7 @@ aside {
 }
 
 .footer-menu {
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 991px) {
