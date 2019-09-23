@@ -624,9 +624,9 @@ aside {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen (max-width: 479px) {
   h3 {
-    font-size: 2px;
+    font-size: 23px;
   }
 }
 
