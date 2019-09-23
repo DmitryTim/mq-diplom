@@ -146,6 +146,26 @@ aside {
   }
 }
 
+  .sport-header {
+    font-size: 36px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+
+@media screen and (max-width: 767px) {
+  .sport-header {
+    font-size: 32px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .sport-header {
     font-size: 23px; 
@@ -153,6 +173,7 @@ aside {
     padding-left: 10px;
     color: #c1c1c1;
     letter-spacing: 1.7px;
+    text-transform: uppercase;
   }
 }
 
