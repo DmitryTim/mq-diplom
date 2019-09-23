@@ -146,6 +146,16 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .sport-header {
+    font-size: 23px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+  }
+}
+
 .logo {
   text-align: center;
   cursor: pointer;
@@ -632,12 +642,6 @@ aside {
   }
 }
 
-@media (max-width: 479px) {
-  h3 {
-    font-size: 2px;
-  }
-}
-
 .sport-value {
   position: relative;
   padding-bottom: 7px;
@@ -688,18 +692,12 @@ aside {
   .tips h2 {
     margin-bottom: 20px;
   }
-  h3 {
-    font-size: 23px;
-  }
 }
 @media screen and (max-width: 479px) {
   .tips h2 {
     font-size: 28px;
   }
   
-  h3 {
-    font-size: 23px;
-  }
 }
 .tips-block {
   display: flex;
@@ -729,6 +727,9 @@ aside {
     top: -90px;
   }
 }
+
+
+
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-content {
     padding: 0 32px;
