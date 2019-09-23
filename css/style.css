@@ -964,7 +964,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer-icon {
-    margin-bottom: 58px;
+    margin-bottom: 50px;
     padding: 11px 7px;
   }
 }
@@ -1026,6 +1026,7 @@ aside {
 .footer-menu {
   margin-bottom: 70px;
 }
+
 
 @media screen and (max-width: 991px) {
   .footer {
