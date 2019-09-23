@@ -624,9 +624,9 @@ aside {
   }
 }
 
-@media screen (max-width: 479px) {
+@media (max-width: 479px) {
   h3 {
-    font-size: 23px;
+    font-size: 2px;
   }
 }
 
@@ -826,7 +826,15 @@ aside {
 
  @media screen and (max-width: 479px) { 
    .tips-value {
-    font-size: 14px;
+    font-size: 14px;  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    opacity: 0.3;
+
   }
 }
 
