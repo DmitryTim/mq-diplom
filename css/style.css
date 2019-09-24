@@ -129,11 +129,6 @@ aside {
   opacity: 0.9;
 }
 
-.header-wrap {
-  max-width: 1350px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 767px) {
   .header {
     padding: 35px 58px;
@@ -377,7 +372,7 @@ aside {
   .menu {
     margin-top: 25px;
     height: 75px;
-    width: 200px;
+    width: 270px;
     flex-wrap: wrap;
     margin-bottom: 100px;
   }
