@@ -222,7 +222,7 @@ aside {
 
 @media screen and (max-width: 767px) {
   .header-logo {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 }
 
@@ -273,11 +273,10 @@ aside {
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-primary {
-    margin-bottom: 220px;
+    margin-bottom: 150px;
     font-size: 64px;
-    letter-spacing: 1.6px;
   }
 }
 
@@ -348,8 +347,8 @@ aside {
 
 @media screen and (max-width: 767px) {
   .menu-logo-apple {
-    width: 36px;
-    height: 42px;
+    width: 30px;
+    height: 37px;
   }
 }
 
