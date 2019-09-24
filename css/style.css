@@ -1008,16 +1008,16 @@ aside {
   letter-spacing: -0.8px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .footer-text-container {
-    font-size: 40px;
+    font-size: 80px;
     line-height: 1.2;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .footer-from {
-    font-size: 28px;
+    font-size: 36px;
     letter-spacing: -0.8px;
   }
 }
