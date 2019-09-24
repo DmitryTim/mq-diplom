@@ -220,7 +220,7 @@ aside {
   margin-bottom: 295px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .header-logo {
     margin-bottom: 160px;
   }
