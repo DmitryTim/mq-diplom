@@ -285,7 +285,7 @@ aside {
 .menu-link:active {
   transform: translateY(4px);
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
