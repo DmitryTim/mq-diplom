@@ -134,7 +134,7 @@ aside {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 35px 58px;
   }
@@ -143,37 +143,6 @@ aside {
 @media screen and (max-width: 479px) {
   .header {
     padding: 35px 20px;
-  }
-}
-
-  .sport-header {
-    font-size: 36px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
-  }
-
-@media screen and (max-width: 769px) {
-  .sport-header {
-    font-size: 32px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .sport-header {
-    font-size: 23px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
   }
 }
 
@@ -210,7 +179,7 @@ aside {
   background: url(../images/football_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .header:before {
     background-image: url(../images/football_767.jpg);
   }
@@ -220,9 +189,9 @@ aside {
   margin-bottom: 295px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .header-logo {
-    margin-bottom: 175px;
+    margin-bottom: 180px;
   }
 }
 
@@ -237,7 +206,7 @@ aside {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 35px 58px;
   }
@@ -273,10 +242,11 @@ aside {
   align-self: flex-end;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .header-primary {
-    margin-bottom: 330px;
-    font-size: 64px;
+    margin-bottom: 110px;
+    font-size: 58px;
+    letter-spacing: 1.6px;
   }
 }
 
@@ -294,7 +264,7 @@ aside {
 .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 75px;
   transition: 0.4s;
 }
 
@@ -316,7 +286,7 @@ aside {
 .menu-link:active {
   transform: translateY(4px);
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
@@ -345,11 +315,10 @@ aside {
   height: 48px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-logo-apple {
-    margin-right: 20px;
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 42px;
   }
 }
 
@@ -373,23 +342,24 @@ aside {
   margin-left: 50px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-link + .menu-link {
-    margin-left: 30px;
+    margin-top: 14px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    margin-bottom: 55px;
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 479px) {
   .menu {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
-}
-
-@media screen and (max-width: 769px) {
-  .menu {
-    height: 75px;
-    width: 650px;
-    
 }
 
 .menu-link {
@@ -410,7 +380,7 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
@@ -433,20 +403,12 @@ aside {
   }
 }
 
-@media screen and (max-width: 479px) {
 .menu-content-modify {
-   margin-right: 20px;
-}
-}
-
-@media screen and (max-width: 769px) {
-.menu-content-modify {
-   margin-right: 25px;
-}
+  
 }
 
 .menu-logo-google {
-  margin-right: 10px;
+  margin-right: 25px;
   width: 42px;
   height: 48px;
 }
@@ -455,11 +417,10 @@ aside {
  margin-right: 25px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .menu-logo-google {
-    margin-right: 20px;
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 42px;
   }
 }
 
@@ -486,7 +447,7 @@ aside {
   font-size: 80px;
   line-height: 1;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport h2 {
     margin-bottom: 20px;
   }
@@ -525,7 +486,7 @@ aside {
     transform: translate(60%, 0);
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-block:nth-child(2n) .sport-image {
     position: static;
     transform: initial;
@@ -554,12 +515,12 @@ aside {
 .sport-box:nth-child(1) {
   padding: 110px 0 50px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(1) {
     padding: 25px 0;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(2) {
     margin-top: -50px;
     background-color: #fafafa;
@@ -577,7 +538,7 @@ aside {
     padding: 40px 0;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(2),
   .sport-box:nth-child(3),
   .sport-box:nth-child(4) {
@@ -610,7 +571,7 @@ aside {
     padding: 0 32px;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-wrap {
     width: 100%;
   }
@@ -627,7 +588,7 @@ aside {
   transform: translate(-110%, 30px) scale(1.04);
   transition: 0.4s;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-image img {
     display: block;
     margin: auto;
@@ -639,7 +600,7 @@ aside {
     transform: translate(-90%, 45px) scale(1.04);
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-image {
     position: static;
     transform: initial;
@@ -662,7 +623,6 @@ aside {
     font-size: 32px;
   }
 }
-
 .sport-value {
   position: relative;
   padding-bottom: 7px;
@@ -677,7 +637,7 @@ aside {
   border-radius: 2px;
   background-color: #5e42b0;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-value {
     font-size: 14px;
   }
@@ -694,7 +654,7 @@ aside {
     line-height: 1.75;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .sport-text {
     font-size: 15px;
     line-height: 1.2;
@@ -709,9 +669,12 @@ aside {
   font-size: 80px;
   line-height: 1;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .tips h2 {
     margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -719,6 +682,9 @@ aside {
     font-size: 28px;
   }
   
+  h3 {
+    font-size: 23px;
+  }
 }
 .tips-block {
   display: flex;
@@ -748,9 +714,6 @@ aside {
     top: -90px;
   }
 }
-
-
-
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-content {
     padding: 0 32px;
@@ -832,8 +795,7 @@ aside {
     height: 70px;
     top: -90px;
   }
- }
-
+}
 .tips-value {
   position: relative;
   margin: auto;
@@ -853,13 +815,6 @@ aside {
   background-color: #fff;
   opacity: 0.3;
 }
-
- @media screen and (max-width: 479px) { 
-   .tips-value {
-    font-size: 14px; 
-  }
-}
-
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
@@ -896,14 +851,6 @@ aside {
   .tips-text {
     max-height: initial;
     font-size: 28px;
-    overflow: initial;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .tips-text {
-    max-height: initial;
-    font-size: 24px;
     overflow: initial;
   }
 }
@@ -947,7 +894,7 @@ aside {
   background: url(../images/game_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .footer-wrap {
     padding: 0 20px;
   }
@@ -957,19 +904,12 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 @media screen and (max-width: 991px) {
   .footer-download-link {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .footer-download-link {
-    flex-direction: column;
-    margin-bottom: 285px;
   }
 }
 
@@ -995,13 +935,13 @@ aside {
 
 @media screen and (max-width: 991px) {
   .footer-icon {
-    margin-bottom: 65px;
+    margin-bottom: 83px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .footer-icon {
-    margin-bottom: 50px;
+    margin-bottom: 58px;
     padding: 11px 7px;
   }
 }
@@ -1025,23 +965,22 @@ aside {
 }
 
 @media screen and (max-width: 769px) {
-  .footer-text {
-    font-size: 80px;
+  .footer-text-container {
+    font-size: 40px;
     line-height: 1.2;
-    letter-spacing: -0.8px;
   }
 }
 
 @media screen and (max-width: 769px) {
   .footer-from {
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: -0.8px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .footer-text {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2;
     letter-spacing: -0.5px;
   }
@@ -1062,7 +1001,7 @@ aside {
 }
 
 .footer-menu {
-  margin-bottom: 70px;
+  margin-bottom: 250px;
 }
 
 @media screen and (max-width: 991px) {
