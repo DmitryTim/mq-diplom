@@ -244,7 +244,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   .header-primary {
-    margin-bottom: 330px;
+    margin-bottom: 280px;
     font-size: 64px;
   }
 }
@@ -1061,9 +1061,9 @@ aside {
   margin-bottom: 250px;
 }
 
-@media sreen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
 	.footer-menu {
-  margin-bottom: 250px;
+  margin-bottom: 60px;
 }
 }
 
