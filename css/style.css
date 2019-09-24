@@ -379,10 +379,11 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
+
   }
 }
 
