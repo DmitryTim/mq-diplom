@@ -146,37 +146,6 @@ aside {
   }
 }
 
-  .sport-header {
-    font-size: 36px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
-  }
-
-@media screen and (max-width: 767px) {
-  .sport-header {
-    font-size: 32px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .sport-header {
-    font-size: 23px; 
-    margin-top: -5px;
-    padding-left: 10px;
-    color: #c1c1c1;
-    letter-spacing: 1.7px;
-    text-transform: uppercase;
-  }
-}
-
 .logo {
   text-align: center;
   cursor: pointer;
@@ -220,9 +189,9 @@ aside {
   margin-bottom: 295px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-logo {
-    margin-bottom: 150px;
+    margin-bottom: 180px;
   }
 }
 
@@ -275,8 +244,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .header-primary {
-    margin-bottom: 220px;
-    font-size: 64px;
+    margin-bottom: 110px;
+    font-size: 58px;
     letter-spacing: 1.6px;
   }
 }
@@ -295,7 +264,7 @@ aside {
 .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 75px;
   transition: 0.4s;
 }
 
@@ -389,7 +358,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .menu {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
 }
 
@@ -434,20 +403,12 @@ aside {
   }
 }
 
-@media screen and (max-width: 479px) {
 .menu-content-modify {
-   margin-right: 20px;
-}
-}
-
-@media screen and (max-width: 767px) {
-.menu-content-modify {
-   margin-right: 25px;
-}
+  
 }
 
 .menu-logo-google {
-  margin-right: 10px;
+  margin-right: 25px;
   width: 42px;
   height: 48px;
 }
@@ -662,7 +623,6 @@ aside {
     font-size: 32px;
   }
 }
-
 .sport-value {
   position: relative;
   padding-bottom: 7px;
@@ -713,12 +673,18 @@ aside {
   .tips h2 {
     margin-bottom: 20px;
   }
+  h3 {
+    font-size: 23px;
+  }
 }
 @media screen and (max-width: 479px) {
   .tips h2 {
     font-size: 28px;
   }
   
+  h3 {
+    font-size: 23px;
+  }
 }
 .tips-block {
   display: flex;
@@ -748,9 +714,6 @@ aside {
     top: -90px;
   }
 }
-
-
-
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-content {
     padding: 0 32px;
@@ -832,8 +795,7 @@ aside {
     height: 70px;
     top: -90px;
   }
- }
-
+}
 .tips-value {
   position: relative;
   margin: auto;
@@ -853,13 +815,6 @@ aside {
   background-color: #fff;
   opacity: 0.3;
 }
-
- @media screen and (max-width: 479px) { 
-   .tips-value {
-    font-size: 14px; 
-  }
-}
-
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
@@ -949,7 +904,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 @media screen and (max-width: 991px) {
@@ -986,7 +941,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer-icon {
-    margin-bottom: 50px;
+    margin-bottom: 58px;
     padding: 11px 7px;
   }
 }
@@ -1025,7 +980,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer-text {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2;
     letter-spacing: -0.5px;
   }
@@ -1046,9 +1001,8 @@ aside {
 }
 
 .footer-menu {
-  margin-bottom: 70px;
+  margin-bottom: 250px;
 }
-
 
 @media screen and (max-width: 991px) {
   .footer {
