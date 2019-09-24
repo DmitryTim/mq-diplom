@@ -134,7 +134,7 @@ aside {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 35px 58px;
   }
@@ -155,7 +155,7 @@ aside {
     text-transform: uppercase;
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-header {
     font-size: 32px; 
     margin-top: -5px;
@@ -210,7 +210,7 @@ aside {
   background: url(../images/football_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header:before {
     background-image: url(../images/football_767.jpg);
   }
@@ -237,7 +237,7 @@ aside {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 35px 58px;
   }
@@ -273,7 +273,7 @@ aside {
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-primary {
     margin-bottom: 150px;
     font-size: 64px;
@@ -316,7 +316,7 @@ aside {
 .menu-link:active {
   transform: translateY(4px);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
@@ -345,7 +345,7 @@ aside {
   height: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-logo-apple {
     width: 30px;
     height: 37px;
@@ -372,14 +372,14 @@ aside {
   margin-left: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-link + .menu-link {
     margin-top: 14px;
     margin-left: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu {
     margin-bottom: 55px;
     flex-wrap: wrap;
@@ -410,7 +410,7 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;
@@ -439,7 +439,7 @@ aside {
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 .menu-content-modify {
    margin-right: 25px;
 }
@@ -455,7 +455,7 @@ aside {
  margin-right: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-logo-google {
     width: 36px;
     height: 42px;
@@ -485,7 +485,7 @@ aside {
   font-size: 80px;
   line-height: 1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport h2 {
     margin-bottom: 20px;
   }
@@ -524,7 +524,7 @@ aside {
     transform: translate(60%, 0);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-block:nth-child(2n) .sport-image {
     position: static;
     transform: initial;
@@ -553,12 +553,12 @@ aside {
 .sport-box:nth-child(1) {
   padding: 110px 0 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(1) {
     padding: 25px 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(2) {
     margin-top: -50px;
     background-color: #fafafa;
@@ -576,7 +576,7 @@ aside {
     padding: 40px 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(2),
   .sport-box:nth-child(3),
   .sport-box:nth-child(4) {
@@ -609,7 +609,7 @@ aside {
     padding: 0 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-wrap {
     width: 100%;
   }
@@ -626,7 +626,7 @@ aside {
   transform: translate(-110%, 30px) scale(1.04);
   transition: 0.4s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-image img {
     display: block;
     margin: auto;
@@ -638,7 +638,7 @@ aside {
     transform: translate(-90%, 45px) scale(1.04);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-image {
     position: static;
     transform: initial;
@@ -676,7 +676,7 @@ aside {
   border-radius: 2px;
   background-color: #5e42b0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-value {
     font-size: 14px;
   }
@@ -693,7 +693,7 @@ aside {
     line-height: 1.75;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-text {
     font-size: 15px;
     line-height: 1.2;
@@ -708,7 +708,7 @@ aside {
   font-size: 80px;
   line-height: 1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .tips h2 {
     margin-bottom: 20px;
   }
@@ -938,7 +938,7 @@ aside {
   background: url(../images/game_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-wrap {
     padding: 0 20px;
   }
