@@ -314,9 +314,9 @@ aside {
   height: 48px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .menu-logo-apple {
-      margin-right: 20px;
+    margin-right: 20px;
     width: 44px;
     height: 44px;
   }
@@ -342,13 +342,13 @@ aside {
   margin-left: 50px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .menu-link + .menu-link {
     margin-left: 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .menu {
     height: 75px;
     width: 650px;
@@ -424,7 +424,7 @@ aside {
  margin-right: 25px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .menu-logo-google {
     margin-right: 20px;
     width: 44px;
@@ -962,7 +962,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .footer-download-link {
     flex-direction: column;
     margin-bottom: 285px;
