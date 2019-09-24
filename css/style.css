@@ -314,9 +314,9 @@ aside {
 }
 
 .menu-logo-apple {
-  margin-right: 10px;
-  width: 36px;
-  height: 48px;
+  margin-right: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 @media screen and (max-width: 769px) {
@@ -349,7 +349,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-link + .menu-link {
-    margin-left: 0px;
+    margin-left: 25px;
   }
 }
 
@@ -434,7 +434,7 @@ aside {
 
 .menu-logo-google {
   margin-right: 25px;
-  width: 42px;
+  width: 48px;
   height: 48px;
 }
 
@@ -1085,6 +1085,7 @@ aside {
 }
 
   .footer-menu {
+  margin-top: 180px;
   margin-bottom: 250px;
 }
 
