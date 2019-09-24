@@ -275,7 +275,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .header-primary {
-    margin-bottom: 235px;
+    margin-bottom: 330px;
     font-size: 64px;
   }
 }
@@ -387,7 +387,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu {
-    height: 70px;
+    height: 75px;
     width: 650px;
     
 }
