@@ -349,7 +349,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-link + .menu-link {
-    margin-left: 25px;
+    margin-left: 0px;
   }
 }
 
@@ -1027,7 +1027,7 @@ aside {
   }
 }
 
-.footer-text-container {
+  .footer-text-container {
   display: flex;
   flex-direction: column;
   padding-left: 35px;
@@ -1038,7 +1038,7 @@ aside {
   letter-spacing: 4px;
 }
 
-.footer-from {
+  .footer-from {
   color: #a496ca;
   font-weight: 400;
   font-size: 30px;
@@ -1084,18 +1084,18 @@ aside {
   }
 }
 
-.footer-menu {
+  .footer-menu {
   margin-bottom: 250px;
 }
 
 @media screen and (max-width: 769px) {
-	.footer-menu {
+  .footer-menu {
   margin-bottom: 60px;
 }
 }
 
 @media screen and (max-width: 479px) {
-	.footer-menu {
+  .footer-menu {
   margin-bottom: 120px;
 }
 }
