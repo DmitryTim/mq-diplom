@@ -191,7 +191,7 @@ aside {
 
 @media screen and (max-width: 767px) {
   .header-logo {
-    margin-bottom: 180px;
+    margin-bottom: 175px;
   }
 }
 
@@ -244,9 +244,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .header-primary {
-    margin-bottom: 110px;
-    font-size: 58px;
-    letter-spacing: 1.6px;
+    margin-bottom: 330px;
+    font-size: 64px;
   }
 }
 
@@ -264,7 +263,7 @@ aside {
 .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
   transition: 0.4s;
 }
 
@@ -317,8 +316,9 @@ aside {
 
 @media screen and (max-width: 767px) {
   .menu-logo-apple {
-    width: 36px;
-    height: 42px;
+      margin-right: 20px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -344,21 +344,20 @@ aside {
 
 @media screen and (max-width: 767px) {
   .menu-link + .menu-link {
-    margin-top: 14px;
-    margin-left: 0;
+    margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .menu {
-    margin-bottom: 55px;
-    flex-wrap: wrap;
+    height: 75px;
+    width: 650px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .menu {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 }
 
@@ -403,8 +402,16 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
 .menu-content-modify {
-  
+   margin-right: 20px;
+}
+}
+
+@media screen and (max-width: 769px) {
+.menu-content-modify {
+   margin-right: 25px;
+}
 }
 
 .menu-logo-google {
@@ -419,8 +426,9 @@ aside {
 
 @media screen and (max-width: 767px) {
   .menu-logo-google {
-    width: 36px;
-    height: 42px;
+    margin-right: 20px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -463,6 +471,38 @@ aside {
   flex-direction: column;
   
 }
+
+ .sport-header {
+    font-size: 36px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+
+@media screen and (max-width: 767px) {
+  .sport-header {
+    font-size: 32px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sport-header {
+    font-size: 23px; 
+    margin-top: -5px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+  }
+}
+
 .sport-block:nth-child(2n) .sport-box {
   justify-content: flex-start;
  }
@@ -673,18 +713,13 @@ aside {
   .tips h2 {
     margin-bottom: 20px;
   }
-  h3 {
-    font-size: 23px;
-  }
+  
 }
 @media screen and (max-width: 479px) {
   .tips h2 {
     font-size: 28px;
   }
-  
-  h3 {
-    font-size: 23px;
-  }
+ 
 }
 .tips-block {
   display: flex;
@@ -815,6 +850,12 @@ aside {
   background-color: #fff;
   opacity: 0.3;
 }
+
+@media screen and (max-width: 479px) { 
+   .tips-value {
+    font-size: 14px; 
+  }
+}
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
@@ -851,6 +892,14 @@ aside {
   .tips-text {
     max-height: initial;
     font-size: 28px;
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tips-text {
+    max-height: initial;
+    font-size: 24px;
     overflow: initial;
   }
 }
@@ -904,12 +953,19 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 70px;
 }
 
 @media screen and (max-width: 991px) {
   .footer-download-link {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-download-link {
+    flex-direction: column;
+    margin-bottom: 285px;
   }
 }
 
@@ -935,13 +991,13 @@ aside {
 
 @media screen and (max-width: 991px) {
   .footer-icon {
-    margin-bottom: 83px;
+    margin-bottom: 65px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .footer-icon {
-    margin-bottom: 58px;
+    margin-bottom: 50px;
     padding: 11px 7px;
   }
 }
@@ -965,22 +1021,23 @@ aside {
 }
 
 @media screen and (max-width: 769px) {
-  .footer-text-container {
-    font-size: 40px;
+  .footer-text {
+    font-size: 80px;
     line-height: 1.2;
+    letter-spacing: -0.8px;
   }
 }
 
 @media screen and (max-width: 769px) {
   .footer-from {
-    font-size: 28px;
+    font-size: 36px;
     letter-spacing: -0.8px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .footer-text {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.2;
     letter-spacing: -0.5px;
   }
@@ -1002,6 +1059,12 @@ aside {
 
 .footer-menu {
   margin-bottom: 250px;
+}
+
+@media sreen and (max-width: 769px) {
+	.footer-menu {
+  margin-bottom: 250px;
+}
 }
 
 @media screen and (max-width: 991px) {
