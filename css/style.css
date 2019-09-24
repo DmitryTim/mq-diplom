@@ -263,7 +263,7 @@ aside {
 .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 75px;
   transition: 0.4s;
 }
 
@@ -288,9 +288,16 @@ aside {
 @media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
-    padding: 9px 0;
+    padding: 9px 0;  
+    
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-link {
+    margin-top: 15px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     
   }
 }
@@ -347,7 +354,14 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-link + .menu-link {
-    margin-left: 30px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-link + .menu-link {
+    margin-left: 0px;
+    
   }
 }
 
@@ -355,12 +369,17 @@ aside {
   .menu {
     height: 75px;
     width: 650px;
+    
   }
 }
 
 @media screen and (max-width: 479px) {
   .menu {
-    margin-bottom: 25px;
+    margin-top: 25px;
+    height: 75px;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
   }
 }
 
@@ -973,6 +992,13 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .footer-download-link {
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+}
+
 .footer-icon {
   display: flex;
   justify-content: center;
@@ -1044,6 +1070,7 @@ aside {
     font-size: 32px;
     line-height: 1.2;
     letter-spacing: -0.5px;
+    
   }
 }
 
@@ -1051,6 +1078,7 @@ aside {
   .footer-from {
     font-size: 14px;
     letter-spacing: -0.8px;
+    margin-right: 20px;
   }
 }
 
@@ -1071,6 +1099,12 @@ aside {
 }
 }
 
+@media screen and (max-width: 479px) {
+	.footer-menu {
+  margin-bottom: 120px;
+}
+}
+
 @media screen and (max-width: 991px) {
   .footer {
     padding: 125px 20px 20px;
@@ -1079,6 +1113,6 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer {
-    padding: 100px 20px 20px;
+    padding: 100px 5px 20px 5px;
   }
 }
