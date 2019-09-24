@@ -222,7 +222,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .header-logo {
-    margin-bottom: 165px;
+    margin-bottom: 175px;
   }
 }
 
@@ -275,7 +275,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .header-primary {
-    margin-bottom: 150px;
+    margin-bottom: 285px;
     font-size: 64px;
   }
 }
@@ -347,8 +347,9 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-logo-apple {
-    width: 30px;
-    height: 37px;
+    margin-right: 20px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -382,6 +383,13 @@ aside {
   .menu {
     margin-bottom: 25px;
   }
+}
+
+@media screen and (max-width: 769px) {
+  .menu {
+    height: 70px;
+    width: 600px;
+    
 }
 
 .menu-link {
@@ -449,8 +457,9 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-logo-google {
-    width: 36px;
-    height: 42px;
+    margin-right: 20px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -887,6 +896,14 @@ aside {
   .tips-text {
     max-height: initial;
     font-size: 28px;
+    overflow: initial;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .tips-text {
+    max-height: initial;
+    font-size: 24px;
     overflow: initial;
   }
 }
