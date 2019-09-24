@@ -275,7 +275,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .header-primary {
-    margin-bottom: 285px;
+    margin-bottom: 235px;
     font-size: 64px;
   }
 }
@@ -388,7 +388,7 @@ aside {
 @media screen and (max-width: 769px) {
   .menu {
     height: 70px;
-    width: 600px;
+    width: 650px;
     
 }
 
@@ -995,7 +995,7 @@ aside {
 
 @media screen and (max-width: 991px) {
   .footer-icon {
-    margin-bottom: 80px;
+    margin-bottom: 65px;
   }
 }
 
@@ -1024,10 +1024,11 @@ aside {
   letter-spacing: -0.8px;
 }
 
-@media screen and (max-width: 767px) {
-  .footer-text-container {
+@media screen and (max-width: 769px) {
+  .footer-text {
     font-size: 80px;
     line-height: 1.2;
+    letter-spacing: -0.8px;
   }
 }
 
