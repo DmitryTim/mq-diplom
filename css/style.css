@@ -275,8 +275,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .header-primary {
-    margin-bottom: 110px;
-    font-size: 58px;
+    margin-bottom: 0px;
+    font-size: 64px;
     letter-spacing: 1.6px;
   }
 }
