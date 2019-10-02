@@ -38,9 +38,11 @@ button {
 table {
   border-collapse: collapse;
 }
+
 td {
   vertical-align: middle;
 }
+
 img {
   border: none;
 }
@@ -499,7 +501,7 @@ aside {
     text-transform: uppercase;
   }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-header {
     font-size: 32px; 
     margin-top: -5px;
@@ -550,11 +552,38 @@ aside {
     transform: initial;
   }
 }
-@media screen and (max-width: 991px) {
-  .sport-block:nth-child(2n) .sport-box .sport-wrap {
-    padding: 0 32px;
+
+
+.sport-block:nth-child(2n) .sport-image2 {
+  top: -110px;
+  left: initial;
+  right: 0;
+  transform: translate(86%, 35px);
+}
+@media screen and (max-width: 1275px) {
+  .sport-block:nth-child(2n) .sport-image2 {
+    transform: translate(86%, 35px);
   }
 }
+@media screen and (max-width: 991px) {
+  .sport-block:nth-child(2n) .sport-image2 {
+    top: 0;
+    transform: translate(60%, 0);
+  }
+}
+@media screen and (max-width: 767px) {
+  .sport-block:nth-child(2n) .sport-image2 {
+    position: static;
+    transform: initial;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap {
+    padding: 0 90px 0 10px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .sport-block:nth-child(2n) .sport-wrap {
     padding: 0 20px;
@@ -573,9 +602,9 @@ aside {
 .sport-box:nth-child(1) {
   padding: 110px 0 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-box:nth-child(1) {
-    padding: 25px 0;
+    padding: 90px 0 20px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -629,9 +658,10 @@ aside {
     padding: 0 32px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-wrap {
-    width: 100%;
+    padding: 0 20px 0 35px;
+	margin-left: 25px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -646,10 +676,11 @@ aside {
   transform: translate(-110%, 30px) scale(1.04);
   transition: 0.4s;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-image img {
-    display: block;
-    margin: auto;
+    
+    margin-left: 450px;
+	margin-top: -10px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -664,6 +695,39 @@ aside {
     transform: initial;
   }
 }
+
+
+.sport-image2 {
+  position: absolute;
+  top: -110px;
+  left: 0;
+  transform: translate(-110%, 30px) scale(1.04);
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .sport-image2 img {
+    
+    margin-right: 75px;
+	margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sport-image2 {
+    top: 0;
+    transform: translate(-90%, 45px) scale(1.04);
+  }
+}
+@media screen and (max-width: 767px) {
+  .sport-image2 {
+    position: static;
+    transform: initial;
+  }
+}
+
+
+
 .sport-title-wrap {
   display: flex;
   align-items: flex-start;
