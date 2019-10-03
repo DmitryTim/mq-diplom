@@ -1134,7 +1134,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-download-link {
     flex-direction: column;
     padding-bottom: 85px;
@@ -1241,10 +1241,11 @@ aside {
   margin-bottom: 250px;
 }
 
-@media screen and (max-width: 769px) {
-  .footer-menu {
+@media screen and (max-width: 768px) {
+   .footer-menu {
+  margin-top: 215px;
+  margin-left: 50px;
   margin-bottom: 60px;
-}
 }
 
 @media screen and (max-width: 479px) {
