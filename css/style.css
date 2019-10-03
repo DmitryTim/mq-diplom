@@ -1084,13 +1084,13 @@ aside {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .tips-text {
     max-height: initial;
     font-size: 24px;
     overflow: initial;
 	line-height: 28px;
-	margin-bottom: 5px;
+	margin-bottom: 40px;
   }
 }
 
@@ -1154,10 +1154,10 @@ aside {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer-download-link {
-    flex-direction: column;
-    padding-bottom: 85px;
+    margin-bottom: 70px;
+	margin-top: 28px;
   }
 }
 
