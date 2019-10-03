@@ -149,8 +149,7 @@ aside {
 }
 
 .logo svg {
-  width: 191px;
-  height: 52px;
+  width: 200px;
   transition: all 1s;
   fill: #000;
 }
@@ -1044,7 +1043,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .footer-download-link {
     flex-direction: column;
     margin-bottom: 285px;
@@ -1111,9 +1110,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .footer-text {
-    font-size: 76px;
-    line-height: 1.2;
-    letter-spacing: -0.8px;
+    font-size: 80px;
   }
 }
 
@@ -1168,6 +1165,12 @@ aside {
 @media screen and (max-width: 991px) {
   .footer {
     padding: 125px 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0px;
   }
 }
 
