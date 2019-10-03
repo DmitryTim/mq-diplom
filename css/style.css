@@ -756,7 +756,7 @@ aside {
   .sport-image2 img {
     
     margin-right: 75px;
-	margin-top: -20px;
+	margin-top: -40px;
   }
 }
 
@@ -828,8 +828,7 @@ aside {
 }
 @media screen and (max-width: 768px) {
   .sport-text {
-    font-size: 15px;
-    line-height: 1.2;
+    font-size: 16px;
   }
 }
 .tips {
@@ -912,6 +911,14 @@ aside {
     margin-bottom: 90px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tips-box {
+    width: 100%;
+    margin-bottom: 82px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .tips-box {
     margin-bottom: 35px;
@@ -929,7 +936,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .tips-content {
-    padding: 0 40px;
+    padding: 0 30px;
+	word-spacing: 2px;
   }
 }
 
@@ -963,6 +971,17 @@ aside {
     transform: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tips-item-number-block {
+    width: 116px;
+    height: 116px;
+    top: -160px;
+    left: 3px;
+    transform: none;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .tips-item-number-block {
     width: 70px;
