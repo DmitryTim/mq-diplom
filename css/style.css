@@ -139,7 +139,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .header {
-    padding: 22px 20px;
+    padding: 38px 20px;
   }
 }
 
@@ -437,7 +437,7 @@ aside {
     margin-top: 25px;
     width: 280px;
     flex-wrap: wrap;
-    margin-bottom: 82px;
+    margin-bottom: 68px;
   }
 }
 
@@ -494,7 +494,7 @@ aside {
 
 @media screen and (max-width: 479px) {
 .menu-content-modify {
-   margin-right: 20px;
+   margin-right: 44px;
 }
 }
 
@@ -679,6 +679,12 @@ aside {
     padding: 75px 0 0 0;
   }
 }
+@media screen and (max-width: 479px) {
+  .sport-box:nth-child(1) {
+    padding: 15px 275px 0 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .sport-box:nth-child(2) {
     margin-top: -50px;
@@ -759,8 +765,8 @@ aside {
 
 @media screen and (max-width: 496px){
 .sport-image img {
-    margin-left: 20px;
-    margin-top: -20px;
+    margin-left: 46px;
+    margin-top: -8px;
 }
 }
 @media screen and (max-width: 991px) {
