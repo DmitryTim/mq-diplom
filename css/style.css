@@ -381,9 +381,9 @@ aside {
 
 @media screen and (max-width: 479px) {
   .menu-logo-apple {
-    width: 8px;
+    width: 24px;
     height: 24px;
-	margin: 24px;
+	margin-right: 8px;
   }
 }
 
