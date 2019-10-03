@@ -873,6 +873,17 @@ aside {
     transform: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tips-block:nth-child(2n) .tips-content .tips-content-wrap .tips-item-number-block {
+    width: 116px;
+    height: 116px;
+    top: -128px;
+    left: 0;
+    transform: none;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .tips-block:nth-child(2n) .tips-content .tips-content-wrap .tips-item-number-block {
     width: 70px;
@@ -976,7 +987,7 @@ aside {
   .tips-item-number-block {
     width: 116px;
     height: 116px;
-    top: -167px;
+    top: -128px;
     left: 3px;
     transform: none;
   }
@@ -1030,7 +1041,7 @@ aside {
   position: relative;
   top: calc(77.5px - 40px);
   transition: 0.2s;
-  margin-top: -16px;
+  margin-top: -40px;
 }
 }
 
@@ -1042,7 +1053,16 @@ aside {
 }
 @media screen and (max-width: 1275px) {
   .tips-title {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    overflow: initial;
+    text-overflow: initial;
+    white-space: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tips-title {
+    margin-bottom: 20px;
     overflow: initial;
     text-overflow: initial;
     white-space: initial;
@@ -1243,7 +1263,7 @@ aside {
 
 @media screen and (max-width: 768px) {
    .footer-menu {
-  margin-top: 215px;
+  margin-top: 270px;
   margin-left: 50px;
   margin-bottom: 60px;
 }
