@@ -149,7 +149,7 @@ aside {
 }
 
 .logo svg {
-  width: 200px;
+  width: 191px;
   transition: all 1s;
   fill: #000;
 }
@@ -1024,9 +1024,10 @@ aside {
   background: url(../images/game_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer-wrap {
-    padding: 0 20px;
+    padding: 120px 20px 20px 20px;
+	
   }
 }
 
@@ -1179,3 +1180,4 @@ aside {
     padding: 100px 5px 20px 5px;
   }
 }
+
