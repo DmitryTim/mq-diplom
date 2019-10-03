@@ -1025,7 +1025,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 768){
+@media screen and (max-width: 768px){
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
