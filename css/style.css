@@ -875,6 +875,13 @@ aside {
     padding: 0 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tips-content {
+    padding: 0 40px;
+  }
+}
+
 .tips-content-wrap {
   position: relative;
   top: calc(50% - 155px);
@@ -977,7 +984,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .tips-text {
     max-height: initial;
     font-size: 24px;
@@ -1026,7 +1033,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   .footer-wrap {
-    padding: 120px 20px 20px 20px;
+    padding: 125px 20px 20px 20px;
 	
   }
 }
@@ -1047,7 +1054,7 @@ aside {
 @media screen and (max-width: 768px) {
   .footer-download-link {
     flex-direction: column;
-    margin-bottom: 285px;
+    padding-bottom: 85px;
   }
 }
 
