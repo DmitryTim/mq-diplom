@@ -154,6 +154,12 @@ aside {
   fill: #000;
 }
 
+@media screen and (max-width: 768px) {
+  .logo svg {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .logo svg {
     width: 133px;
@@ -185,9 +191,10 @@ aside {
   margin-bottom: 295px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .header-logo {
     margin-bottom: 175px;
+	padding-top: 10px;
   }
 }
 
@@ -222,6 +229,12 @@ aside {
   letter-spacing: 2px;
   transition: 0.4s;
 }
+@media screen and (max-width: 768px) {
+
+.header-primary {
+  font-size: 64px;
+}
+}
 
 .header-primary > span {
   max-width: 85%;
@@ -238,10 +251,18 @@ aside {
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-  .header-primary {
+@media screen and (max-width: 767px) {
+  .second-text{
     margin-bottom: 325px;
     font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-primary .second-text{
+    align-self: flex-end;
+    padding-top: 10px;
+	line-height: 75px;
   }
 }
 
@@ -261,6 +282,16 @@ aside {
   justify-content: center;
   margin-bottom: 75px;
   transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: -25px;
+  transition: 0.4s;
+}
 }
 
 .menu-link {
@@ -322,7 +353,7 @@ aside {
 
 @media screen and (max-width: 769px) {
   .menu-logo-apple {
-    margin-right: 20px;
+    margin-right: 25px;
     width: 44px;
     height: 44px;
   }
@@ -435,6 +466,7 @@ aside {
 
 .menu-logo-google {
   margin-right: 25px;
+  margin-left: 10px;
   width: 48px;
   height: 48px;
 }
@@ -624,11 +656,12 @@ aside {
     padding: 40px 0;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-box:nth-child(2),
   .sport-box:nth-child(3),
   .sport-box:nth-child(4) {
-    padding: 60px 0;
+    padding-top: 50px;
+	padding-bottom: 30px;
   }
 }
 .sport-box:nth-child(3) {
@@ -678,8 +711,8 @@ aside {
 @media screen and (max-width: 768px) {
   .sport-image img {
     
-    margin-left: 270px;
-	margin-top: -10px;
+    margin-left: 210px;
+	margin-top: -40px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -758,10 +791,12 @@ aside {
   border-radius: 2px;
   background-color: #5e42b0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .sport-value {
-    font-size: 14px;
-  }
+  position: relative;
+  padding-bottom: 9px;
+  font-size: 18px;
+}
 }
 .sport-text {
   font-weight: 400;
@@ -984,13 +1019,15 @@ aside {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .tips-text {
     max-height: initial;
     font-size: 24px;
     overflow: initial;
+	line-height: 30px;
   }
 }
+
 @media screen and (max-width: 479px) {
   .tips-text {
     max-height: initial;
@@ -1116,7 +1153,7 @@ aside {
   letter-spacing: -0.8px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .footer-text {
     font-size: 80px;
   }
