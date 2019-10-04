@@ -690,14 +690,16 @@ aside {
     margin-top: -50px;
     background-color: #fafafa;
   }
- 
-  @media screen and (max-width: 479px) {
+
+}
+
+@media screen and (max-width: 479px) {
   .sport-box:nth-child(2) {
     margin-top: -50px;
     background-color: #fafafa;
   }
-}
 
+}
 .sport-box:nth-child(2),
 .sport-box:nth-child(3),
 .sport-box:nth-child(4) {
@@ -1355,3 +1357,4 @@ aside {
     padding: 100px 5px 20px 5px;
   }
 }
+
