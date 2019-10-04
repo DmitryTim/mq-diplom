@@ -729,8 +729,14 @@ aside {
 }
 .sport-box:nth-child(4) {
   background-color: #5e42b0;
+}
+
+@media screen and (max-width:479px) {
+.sport-box:nth-child(4) {
+  background-color: #5e42b0;
   padding-bottom: 50px;
   padding-top: 30px;
+}
 }
 .sport-box:nth-child(4) .sport-title-wrap h3 {
   color: #c1c1c1;
