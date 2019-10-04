@@ -669,8 +669,7 @@ aside {
 }
 @media screen and (max-width: 479px) {
   .sport-box:nth-child(1) {
-    padding: 5px 0 0 4px;
-	margin-bottom: 10px;
+    padding: 5px 0 0 5px;
   }
 }
 
@@ -715,7 +714,7 @@ aside {
   .sport-box:nth-child(3),
   .sport-box:nth-child(4) {
     padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 46px;
   }
 }
 
@@ -737,13 +736,20 @@ aside {
 
 @media screen and (max-width: 479px){
 .sport-box:nth-child(4) .sport-title-wrap {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+}
+@media scree
+n and (max-width: 479px){
+.sport-box:nth-child(2) .sport-title-wrap {
+  padding-bottom: 20px;
 }
 }
 
 @media screen and (max-width: 479px){
 .sport-box:nth-child(3) .sport-title-wrap {
-  padding-bottom: 5px;
+  padding-bottom: 18px;
+  padding-top: 0;
 }
 }
 
@@ -918,8 +924,10 @@ aside {
   .sport-text {
     font-size: 16px;
 	line-height: 1.4;
-	padding-right: 10px;
+	padding-right: 5px;
 	letter-spacing: -0.1px;
+	line-height: 1.2;
+	word-spacing: 2.6px;
   }
 }
 
