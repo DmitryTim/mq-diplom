@@ -724,6 +724,7 @@ aside {
 .sport-box:nth-child(4) {
   background-color: #5e42b0;
   padding-bottom: 50px;
+  padding-top: 30px;
 }
 .sport-box:nth-child(4) .sport-title-wrap h3 {
   color: #c1c1c1;
@@ -825,6 +826,14 @@ aside {
   left: 0;
   transform: translate(-110%, 30px) scale(1.04);
   transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .sport-image2 img {
+    
+    margin-right: -5px;
+	margin-top: 6px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1398,3 +1407,4 @@ aside {
     padding: 100px 5px 20px 5px;
   }
 }
+
