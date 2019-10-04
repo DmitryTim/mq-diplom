@@ -139,7 +139,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .header {
-    padding: 38px 20px;
+    padding: 22px 20px;
   }
 }
 
@@ -437,7 +437,7 @@ aside {
     margin-top: 25px;
     width: 280px;
     flex-wrap: wrap;
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 }
 
@@ -681,7 +681,7 @@ aside {
 }
 @media screen and (max-width: 479px) {
   .sport-box:nth-child(1) {
-    padding: 20px 52px 0 0;
+    padding: 5px 0 0 4px;
   }
 }
 
@@ -735,6 +735,19 @@ aside {
 .sport-box:nth-child(4) .sport-text {
   color: #fff;
 }
+
+@media screen and (max-width: 479px){
+.sport-box:nth-child(4) .sport-title-wrap {
+  padding-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 479px){
+.sport-box:nth-child(3) .sport-title-wrap {
+  padding-bottom: 5px;
+}
+}
+
 .sport-wrap {
   position: relative;
   width: 50%;
@@ -755,6 +768,8 @@ aside {
 @media screen and (max-width: 479px) {
   .sport-wrap {
     width: 100%;
+	margin: 0;
+	padding: 14px 20px 0 20px;
   }
 }
 .sport-image {
@@ -828,6 +843,16 @@ aside {
   align-items: flex-start;
   padding-bottom: 20px;
 }
+
+@media screen and (max-width: 479px){
+.sport-title-wrap {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  padding-top: 6px;
+}
+}
+
 .sport-title-wrap h3 {
   margin-top: -5px;
   padding-left: 10px;
@@ -894,6 +919,7 @@ aside {
   .sport-text {
     font-size: 14px;
 	line-height: 1.4;
+	padding-right: 10px;
   }
 }
 
