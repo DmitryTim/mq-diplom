@@ -723,6 +723,7 @@ aside {
 }
 .sport-box:nth-child(4) {
   background-color: #5e42b0;
+  padding-bottom: 50px;
 }
 .sport-box:nth-child(4) .sport-title-wrap h3 {
   color: #c1c1c1;
@@ -746,8 +747,7 @@ aside {
 }
 }
 
-@media scree
-n and (max-width: 479px){
+@media screen and (max-width: 479px){
 .sport-box:nth-child(2) .sport-wrap {
   padding-bottom: 24px 20px 0px;
 }
@@ -755,7 +755,7 @@ n and (max-width: 479px){
 
 @media screen and (max-width: 479px){
 .sport-box:nth-child(3) .sport-title-wrap {
-  padding-bottom: 18px;
+  padding-bottom: 22px;
   padding-top: 0;
 }
 }
@@ -1398,4 +1398,3 @@ n and (max-width: 479px){
     padding: 100px 5px 20px 5px;
   }
 }
-
