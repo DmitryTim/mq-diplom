@@ -169,7 +169,7 @@ aside {
   background: url(../images/football_1920.jpg) 50% 0 / cover no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header:before {
     background-image: url(../images/football_767.jpg);
   }
@@ -323,7 +323,7 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu-link {
     width: 100%;
     padding: 9px 0;   
@@ -334,6 +334,8 @@ aside {
   .menu-link {
     margin-top: 14px;
     flex-direction: column;
+    width: 100%;
+    padding: 5px 0;
   }
 }
 
@@ -444,20 +446,6 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 768px) {
-  .menu-link {
-    width: 100%;
-    padding: 9px 0;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .menu-link {
-    width: 100%;
-    padding: 5px 0;
-  }
-}
-
 .menu-content {
   display: flex;
   align-items: center;
@@ -533,7 +521,7 @@ aside {
   line-height: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport h2 {
     margin-bottom: 20px;
   }
@@ -610,7 +598,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-block:nth-child(2n) .sport-image {
     position: static;
     transform: initial;
@@ -692,7 +680,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-box:nth-child(2) {
     margin-top: -50px;
     background-color: #fafafa;
@@ -854,7 +842,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sport-image {
     position: static;
     transform: initial;
@@ -1002,7 +990,7 @@ aside {
   line-height: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .tips h2 {
     margin-bottom: 20px;
   }
