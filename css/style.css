@@ -200,7 +200,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 35px 58px;
+    padding: 35px 74px;
   }
 }
 
@@ -298,9 +298,11 @@ aside {
   .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 64px;
+  margin-bottom: 54px;
   margin-top: -32px;
   transition: 0.4s;
+  height: 80px;
+  width: 680px; 
   }
 }
 
@@ -410,13 +412,6 @@ aside {
   .menu-link + .menu-link {
     margin-left: 0px;
     margin-right: 0px;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .menu {
-    height: 75px;
-    width: 650px; 
   }
 }
 
@@ -1328,7 +1323,6 @@ aside {
 
 @media screen and (max-width: 768px) {
   .footer-download-link {
-    margin-bottom: 70px;
 	margin-top: 28px;
   }
 }
