@@ -645,6 +645,12 @@ aside {
 }
 
 @media screen and (max-width: 479px) {
+  .sport-block:nth-child(2n) .sport-box .sport-wrap {
+    padding: 10px 20px 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
   .sport-block:nth-child(2n) .sport-wrap {
     padding: 0 20px;
   }
@@ -749,6 +755,24 @@ aside {
 }
 
 @media screen and (max-width: 479px){
+.sport-box:nth-child(6) .sport-title-wrap {
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 479px){
+.sport-box:nth-child(7) .sport-title-wrap {
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 479px){
+.sport-box:nth-child(8) .sport-title-wrap {
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 479px){
 .sport-box:nth-child(2) .sport-wrap {
   padding-bottom: 24px 20px 0px;
 }
@@ -828,11 +852,11 @@ aside {
   transition: 0.4s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 479px) {
   .sport-image2 img {
     
-    margin-right: -5px;
-	margin-top: 6px;
+    margin-left: -12px;
+	margin-top: -8px;
   }
 }
 
