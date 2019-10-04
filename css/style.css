@@ -1086,7 +1086,7 @@ aside {
 @media screen and (max-width: 768px) {
   .tips-box {
     width: 100%;
-    margin-bottom: 82px;
+    margin-bottom: 86px;
   }
 }
 
@@ -1111,6 +1111,7 @@ aside {
   .tips-content {
     padding: 0 30px;
 	word-spacing: 2px;
+	margin-top: -2px;
   }
 }
 
@@ -1307,8 +1308,7 @@ aside {
 
 @media screen and (max-width: 768px) {
   .footer-wrap {
-    padding: 125px 20px 20px 20px;
-	
+    padding: 112px 20px 20px 20px;
   }
 }
 
