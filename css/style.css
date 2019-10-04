@@ -182,7 +182,8 @@ aside {
 @media screen and (max-width: 768px) {
   .header-logo {
     margin-bottom: 175px;
-	padding-top: 10px;
+	padding-top: 5px;
+	padding-left: 4px;
   }
 }
 
@@ -221,10 +222,11 @@ aside {
 @media screen and (max-width: 768px) {
   .header-primary {
     font-size: 64px;
-    padding-left: 20px;
+    padding-left: 18px;
     letter-spacing: 3px;
-    world-spacing: 4px;
-    margin-bottom: 325px;
+    word-spacing: 4px;
+    margin-bottom: 334px;
+	margin-top: -6px;
 }
 }
 
@@ -246,7 +248,7 @@ aside {
   .header-primary > span {
     margin: 0 -2px;
     letter-spacing: 1px;
-	  word-spacing: 4px;
+	word-spacing: 4px;
   }
 }
 
@@ -264,16 +266,15 @@ aside {
 @media screen and (max-width: 768px) {
   .header-primary .second-text{
     align-self: flex-end;
-    padding-top: 5px;
-	  line-height: 75px;
-	  world-spacing: 10px;
+    padding-top: 10px;
+	line-height: 75px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .header-primary .second-text{
     margin-bottom: 10px;
-	  line-height: 30px;
+	line-height: 30px;
     font-size: 28px;
     padding-top: 5px;
 	
@@ -297,8 +298,8 @@ aside {
   .menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
-  margin-top: -25px;
+  margin-bottom: 64px;
+  margin-top: -32px;
   transition: 0.4s;
   }
 }
@@ -400,8 +401,8 @@ aside {
 
 @media screen and (max-width: 768px) {
   .menu-link + .menu-link {
-    margin-left: 30px;
-	margin-right: 10px;
+    margin-left: 35px;
+	margin-right: 16px;
   }
 }
 
