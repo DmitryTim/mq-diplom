@@ -986,12 +986,13 @@ aside {
   font-size: 80px;
   line-height: 1;
 }
+
 @media screen and (max-width: 767px) {
   .tips h2 {
     margin-bottom: 20px;
   }
-  
 }
+
 @media screen and (max-width: 479px) {
   .tips h2 {
     font-size: 28px;
@@ -1002,14 +1003,17 @@ aside {
   display: flex;
   flex-wrap: wrap;
 }
+
 .tips-block:nth-child(2n) .tips-content {
   padding: 0 130px 0 10%;
 }
+
 .tips-block:nth-child(2n) .tips-content .tips-content-wrap .tips-item-number-block {
   left: initial;
   right: -130px;
   transform: translateX(50%);
 }
+
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-content .tips-content-wrap .tips-item-number-block {
     width: 116px;
@@ -1037,31 +1041,38 @@ aside {
     top: -90px;
   }
 }
+
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-content {
     padding: 0 32px;
   }
 }
+
 @media screen and (max-width: 479px) {
   .tips-block:nth-child(2n) .tips-content {
     padding: 0 20px;
   }
 }
+
 .tips-block:nth-child(2n) .tips-box + .tips-box {
   order: -1;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-block:nth-child(2n) .tips-box + .tips-box {
     order: 0;
   }
 }
+
 .tips-box {
   width: 50%;
 }
+
 .tips-box img {
   display: block;
   width: 100%;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-box {
     width: 100%;
@@ -1081,10 +1092,12 @@ aside {
     margin-bottom: 35px;
   }
 }
+
 .tips-content {
   position: relative;
   padding: 0 10% 0 130px;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-content {
     padding: 0 32px;
@@ -1103,11 +1116,13 @@ aside {
   top: calc(50% - 155px);
   transition: 0.2s;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-content-wrap {
     top: 0;
   }
 }
+
 .tips-item-number-block {
   position: absolute;
   top: 0;
@@ -1119,6 +1134,7 @@ aside {
   background-color: #5e42b0;
   transition: 0.4s;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-item-number-block {
     width: 116px;
@@ -1146,6 +1162,7 @@ aside {
     top: -90px;
   }
 }
+
 .tips-value {
   position: relative;
   margin: auto;
@@ -1155,6 +1172,7 @@ aside {
   line-height: 28px;
   letter-spacing: 1px;
 }
+
 .tips-value:before {
   content: '';
   position: absolute;
@@ -1171,11 +1189,13 @@ aside {
     font-size: 14px; 
   }
 }
+
 .tips-title-wrap {
   position: relative;
   top: calc(77.5px - 40px);
   transition: 0.2s;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-title-wrap {
     top: 0;
@@ -1197,6 +1217,7 @@ aside {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-title {
     margin-bottom: 20px;
@@ -1214,6 +1235,7 @@ aside {
     white-space: initial;
   }
 }
+
 .tips-text {
   max-height: 155px;
   padding-bottom: 6px;
@@ -1222,6 +1244,7 @@ aside {
   letter-spacing: 1.2px;
   overflow: hidden;
 }
+
 @media screen and (max-width: 1275px) {
   .tips-text {
     max-height: initial;
@@ -1413,7 +1436,7 @@ aside {
   margin-left: 50px;
   margin-bottom: 60px;
 }
-
+}
 @media screen and (max-width: 479px) {
   .footer-menu {
   margin-bottom: 120px;
@@ -1437,3 +1460,4 @@ aside {
     padding: 100px 5px 20px 5px;
   }
 }
+
