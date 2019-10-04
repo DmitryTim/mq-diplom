@@ -754,7 +754,7 @@ aside {
 }
 @media screen and (max-width: 479px) {
   .sport-wrap {
-    margin: 0 100px 0 0;
+    width: 100%;
   }
 }
 .sport-image {
