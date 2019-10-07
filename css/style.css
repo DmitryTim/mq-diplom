@@ -1073,6 +1073,13 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .tips-block:nth-child(3n) .tips-content {
+    padding-left: 30px;
+	padding-right: 5px;
+  }
+}
+
 .tips-block:nth-child(2n) .tips-box + .tips-box {
   order: -1;
 }
@@ -1137,6 +1144,7 @@ aside {
     padding-left: 30px;
 	word-spacing: 2px;
 	margin-top: -2px;
+	padding-right: 40px;
   }
 }
 
@@ -1189,7 +1197,7 @@ aside {
     width: 70px;
     height: 70px;
     top: -50px;
-	left: -6px;
+	left: -8px;
   }
 }
 
@@ -1300,8 +1308,9 @@ aside {
     font-size: 16px;
     overflow: initial;
 	line-height: normal;
-	margin-left: 6px;
+	margin-left: -10px;
 	word-spacing: -2px;
+	margin-bottom: 70px;
   }
 }
 
@@ -1343,6 +1352,13 @@ aside {
   }
 }
 
+@media screen and (max-width: 479px) {
+  .footer-wrap {
+    padding: 55px 20px 20px 20px;
+	margin-top: -10px;
+  }
+}
+
 .footer-download-link {
   display: flex;
   justify-content: center;
@@ -1365,7 +1381,8 @@ aside {
 @media screen and (max-width: 479px) {
   .footer-download-link {
     flex-direction: column;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
+	margin-top: 45px;
   }
 }
 
@@ -1437,7 +1454,8 @@ aside {
   .footer-text {
     font-size: 32px;
     line-height: 1.2;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.7px;
+	padding-bottom: 5px;
     
   }
 }
@@ -1445,8 +1463,7 @@ aside {
 @media screen and (max-width: 479px) {
   .footer-from {
     font-size: 14px;
-    letter-spacing: -0.8px;
-    margin-right: 20px;
+    letter-spacing: 0.6px;
   }
 }
 
@@ -1472,7 +1489,9 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer-menu {
-  margin-bottom: 120px;
+  margin-bottom: 98px;
+  margin-top: 0px;
+  margin-left: -4px;
   }
 }
 
@@ -1490,6 +1509,6 @@ aside {
 
 @media screen and (max-width: 479px) {
   .footer {
-    padding: 100px 5px 20px 5px;
+    padding: 0px 5px 0px 5px;
   }
 }
