@@ -327,22 +327,6 @@ aside {
   transform: translateY(4px);
 }
 
-@media screen and (max-width: 767px) {
-  .menu-link {
-    width: 100%;
-    padding: 9px 0;   
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .menu-link {
-    margin-top: 14px;
-    flex-direction: column;
-    width: 100%;
-    padding: 4px 0;
-  }
-}
-
 .menu-content {
   display: flex;
   align-items: center;
@@ -440,6 +424,23 @@ aside {
   transition: 0.4s;
   backface-visibility: hidden;
 }
+
+@media screen and (max-width: 767px) {
+  .menu-link {
+    width: 100%;
+    padding: 9px 0;   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-link {
+    margin-top: 14px;
+    flex-direction: column;
+    width: 100%;
+    padding: 4px 0;
+  }
+}
+
 .menu-link:hover {
   transform: translateY(2px);
 }
