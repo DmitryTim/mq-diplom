@@ -400,6 +400,7 @@ aside {
   .menu-link + .menu-link {
     margin-left: 0px;
     margin-right: 0px;
+	padding: 4px 0;
   }
 }
 
