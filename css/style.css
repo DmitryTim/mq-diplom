@@ -206,7 +206,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .header {
-    padding: 18px 10px;
+    padding: 24px 10px;
   }
 }
 
@@ -234,7 +234,8 @@ aside {
   .header-primary {
   margin-bottom: 65px;
   font-size: 28px;
-  padding: 0px;
+  padding-left: 12px;
+  padding-top: 2px;
   
 }
 }
@@ -393,19 +394,10 @@ aside {
   font-weight: 400;
 }
 
-@media screen and (max-width: 479px){
-.menu-text-container > *:first-child {
-  font-weight: 400;
-  padding-right: 50px;
-  margin-bottom: 0;
-	} 
-}
-
 @media screen and (max-width: 768px){
 .menu-text-container > *:first-child {
   font-weight: 400;
   padding-right: 50px;
-  margin-bottom: -4px;
 	} 
 }
 
@@ -432,7 +424,8 @@ aside {
     margin-top: 25px;
     width: 280px;
     flex-wrap: wrap;
-    margin-bottom: 90px;
+    margin-bottom: 76px;
+	margin-left: 10px;
   }
 }
 
@@ -651,7 +644,7 @@ aside {
 
 @media screen and (max-width: 479px) {
   .sport-block:nth-child(2n) .sport-box .sport-wrap {
-    padding: 10px 15px 0;
+    padding: 10px 22px 0;
   }
 }
 
@@ -724,8 +717,8 @@ aside {
   .sport-box:nth-child(2),
   .sport-box:nth-child(3),
   .sport-box:nth-child(4) {
-    padding-top: 50px;
-	  padding-bottom: 46px;
+    padding-top: 54px;
+	  padding-bottom: 48px;
   }
 }
 
@@ -741,7 +734,7 @@ aside {
   .sport-box:nth-child(3) {
     background-color: #5e42b0;
     padding-bottom: 52px;
-    padding-top: 50px;
+    padding-top: 52px;
   }
 }
 
@@ -826,7 +819,7 @@ aside {
   .sport-wrap {
     width: 100%;
 	  margin: 0;
-	  padding: 14px 20px 0 20px;
+	  padding: 14px 20px 0 22px;
   }
 }
 
@@ -875,18 +868,19 @@ aside {
   transition: 0.4s;
 }
 
-@media screen and (max-width: 479px) {
-  .sport-image2 img { 
-    margin-left: -16px;
-	  margin-top: -4px;
-	  margin-bottom: 30px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .sport-image2 img {  
     margin-right: 75px;
 	  margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sport-image2 img { 
+    margin-left: -16px;
+	  margin-top: -4px;
+	  margin-bottom: 34px;
   }
 }
 
@@ -990,10 +984,9 @@ aside {
 @media screen and (max-width: 479px) {
   .sport-text {
     font-size: 16px;
-	  padding-right: 5px;
 	  letter-spacing: -0.1px;
 	  line-height: 18px;
-	  word-spacing: 2.2px;
+	  word-spacing: 1.8px;
   }
 }
 
